@@ -1,0 +1,46 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame1 {
+	// opacity: 1;
+	.txt {
+		transform-origin: 430px 240px;
+		@include pos-scale-rotate(-215, -120, 0.5, 0);
+		
+	}
+
+	.bg{
+		width: 350px;
+		@include pos(-30, 0);
+	}
+
+	.logoSmall{
+		width: 58px;
+		box-shadow: 0 0 3px rgba(0,0,0,.1);
+		@include pos(10, 226);
+	}
+}
+
+
+#legalBtn{	
+	@include pos(7, 198);
+	opacity: 1;
+	width: 36px;
+	height: 25px;
+	background-color: red;
+	opacity: 0;
+}
+
+
+
+
+#banner{
+	font-size: 20px;
+	color: #333;
+	width: 300px;
+	height: 250px;
+}
+

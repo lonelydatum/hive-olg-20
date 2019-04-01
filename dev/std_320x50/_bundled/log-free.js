@@ -5,7 +5,7 @@ function start() {
 	var time = .5;
 	var tl = new TimelineMax();
 	tl.set(".frame1", { opacity: 1 });
-	TweenMax.from(".bg", 7, { x: 0 });
+	// TweenMax.from(".bg", 7, {x:0})
 	tl.to(".phone", time, { y: "-24" });
 	tl.add("t1", "+=.15");
 

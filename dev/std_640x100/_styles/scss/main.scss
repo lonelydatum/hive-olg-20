@@ -1,0 +1,46 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame1 {
+	// opacity: 1;
+	.txt {
+		
+		// @include pos-scale(-215, -120, 0.5, 0);
+		
+	}
+
+	.bg{
+		width: 778px;
+		@include pos(-30, 0);
+	}
+
+	.logoSmall{
+		width: 58px;
+		box-shadow: 0 0 3px rgba(0,0,0,.1);
+		@include pos(664, 68);
+	}
+
+}
+
+
+
+#legalBtn{	
+	@include pos(7, 62);
+	opacity: 1;
+	width: 36px;
+	height: 25px;
+	background-color: red;
+	opacity: 0;
+}
+
+
+#banner{
+	font-size: 20px;
+	color: #333;
+	width: 640px;
+	height: 100px;
+}
+

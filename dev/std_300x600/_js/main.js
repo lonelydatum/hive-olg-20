@@ -2,7 +2,7 @@ function start(){
 	var time = .5
 	const tl = new TimelineMax()
 	tl.set(".frame1", {opacity:1})
-	TweenMax.from(".bg", 7, {x:0})
+	TweenMax.to(".bg", 7, {x:0})
 	tl.add("t1", "+=.1")	
 	tl.from(".t1a", time, {scale:0, opacity:0, ease:Back.easeOut}, "t1+=.1")
 	tl.from(".t1b", time, {scale:0, ease:Back.easeOut}, "t1+=.2")
